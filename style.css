@@ -1,0 +1,307 @@
+
+.head2{
+    justify-content: space-between;
+    text-align: start;
+    font-family: 'Montserrat';
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: relative;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: #5F100E;
+}
+
+
+h1{
+    color: #5F100E;
+}
+.about {
+    right: 100px;
+    position: absolute;
+    width: 580px;
+    display: flex;
+    color: #5F100E;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: 'Montserrat'
+}
+ h1{
+    text-align: center;
+    color: #5F100E;
+
+}
+.button{
+    color: #5F100E;
+    font-size: 24px;
+}
+
+.about-link {
+    text-decoration: none;
+    color: #5F100E;
+    font-size: 16px;
+    transition: font-size 0.3s ease;
+}
+
+.about-link:hover{
+    font-size: 20px;
+}
+
+.header{
+    position: absolute;
+    left: 100px;
+    width: 1200px;
+    height: 580px;
+    background-color: #FFDADA;
+}
+.size{
+    font-size: 18px;
+    color: #5F100E;
+    font-family: 'Montserrat';
+}
+.cake {
+    margin: 20px;
+    display: flex;
+}
+.cake2{
+    margin-left: 32px;
+    font-size: 32px;
+    margin-top: 100px;
+
+}
+.button1{
+    border-color: #5F100E;
+    border-radius: 16px;
+    font-size: 20px;
+    color: #5F100E;
+    background-color: #FFDADA;
+    width: 100%;
+    height: 50px;
+}
+.button1:hover{
+    background-color: #5F100E;
+    color: white;
+    
+}
+
+.cake2-link {
+    color: #5F100E;
+    text-decoration: none;
+}
+
+.h2-color{
+    color: #5F100E;
+    margin-top: 50px;
+}
+.btn {
+    color: #5F100E;
+    font-size: large;
+}
+  
+  
+/* kategori */
+  
+.kategori{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: xx-large;
+    font-weight: 600;
+    margin-top: 100px;
+    
+}
+
+.tort{
+    color: #5F100E;
+    font-family: 'Montserrat';
+    
+}
+.bar{
+    font-size: 20px;
+    display: block;
+    margin-left: 50px;
+    font-family: 'Montserrat';
+    color: #5F100E;
+}
+.bar1{
+    font-size: 20px;
+    display: block;
+    margin-left: 80px;
+    font-family: 'Montserrat';
+    color: #5F100E;
+}
+.tort h3{
+    font-size: 26px ;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    
+}
+.bento{
+    font-size: 26px ;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    text-decoration: none;
+    color: #5F100E;
+}
+
+.container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Montserrat';
+}
+.price{
+    margin-left: 70px;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    color: #5F100E;
+}
+.container-cake{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-kategori{
+    width: 100%;
+    height:130px;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.btn-outline-dark {
+    width: 200px;
+}
+
+#btn-cake {
+    width: 100%;
+    background-color: #5F100E;
+    border: 0;
+    border-radius: 0;
+    
+}
+.container-cake1{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.qwestion{
+    text-align: center;
+    color: #5F100E;
+    margin-top: 100px;
+    font-size: 32px;
+    font-family: 'Montserrat';
+    width: 600;
+    font-size: xx-large;
+}
+
+.accordion {
+    background-color: #5F100E;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-top: 25px;
+    border-radius: 20px;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+
+  .accordion:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  .find{
+    color: #5F100E;
+    margin-top: 25px;
+  }
+   
+  #map {
+    height: 400px;
+    width: 100%;
+    top: 10px;
+  }
+
+
+
+
+  /* footer */
+
+
+footer{
+    width: 100%;
+    height:130px;
+    position: absolute;
+    top: 2800px;
+    left: 0;
+    bottom: 0;
+    
+  }
+
+
+  .photo-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: #FFDADA;
+    color: #5F100E;
+  }
+
+.phone{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+.phone a{
+    text-decoration: underline;
+}
+.phone1{
+    font-size: 20px;
+
+} 
+.phone2{
+    font-size: 20px;
+}
+.icon{
+    margin: 4px;
+}
+.call{
+    color: #5F100E;
+}
+
+
+
